@@ -1,0 +1,411 @@
+.shop-head {
+    width: 990px;
+    height: 120px;
+    margin: auto;
+
+    .logo {
+        float: left;
+        margin: 32px 10px 0 0;
+
+        a {
+            display: block;
+            width: 125px;
+            height: 56px;
+            background: url("../../../img/shopCar/logo.png") 0 0 no-repeat;
+        }
+    }
+
+    .head-title {
+        background: url("../../../img/shopCar/gwc.png") no-repeat 0 32px;
+        width: 175px;
+        height: 120px;
+        display: inline-block;
+    }
+}
+
+.address {
+    width: 990px;
+    margin: auto;
+    height: 46px;
+    line-height: 46px;
+    .dizhi {
+        float: right;
+        font-size: 12px;
+        height: 46px;
+        color: #a5a5a5;
+        span{
+            float: left;
+            display: inline-block;
+        }
+        #distpicker3{
+            float: left;
+            display: inline-block;
+            select{
+                width: 75px;
+                height: 30px;
+            }
+        }
+    }
+
+}
+
+.car-list {
+    width: 990px;
+    margin: auto;
+    .mask{
+        clear: both;
+        width: 990px;
+        display: none;
+        .mask-wrap{
+            border: 1px solid #e6e6e6;
+            text-align: center;
+            padding: 56px 0;
+            .sprite{
+                width: 71px;
+                height: 54px;
+                text-align: center;
+                vertical-align: middle;
+                display: inline-block;
+                background: url("../../../img/shopCar/sprite.png") 0 0;
+                position: relative;
+            }
+            .sprite::after{
+                content:"";
+                width: 3px;
+                height: 40px;
+                position: absolute;
+                top: 10px;right: -6px;
+                background-color: #cccccc;
+            }
+            .contain{
+                display: inline-block;
+                text-align: left;
+                vertical-align: middle;
+                margin-left: 10px;
+                font-size: 12px;
+                line-height: 26px;
+            }
+        }
+    }
+    .car-list-head {
+        height: 44px;
+        line-height: 44px;
+        background: #eee;
+        width: 988px;
+        border: 1px solid #e6e6e6;
+        border-radius: 3px;
+        font-size: 14px;
+        .left {
+            input {
+                margin-left: 10px;
+                vertical-align: middle;
+                margin-top: -1px;
+                width: 14px;
+                height: 14px;
+            }
+
+            span {
+                margin: 0 10px;
+                vertical-align: top;
+            }
+        }
+
+        .right {
+            span {
+                margin: 0 47px;
+            }
+        }
+    }
+
+    .list-top {
+        height: 38px;
+        margin-top: 10px;
+        border: 1px solid #dddddd;
+        padding-top: 2px;
+        padding-bottom: 2px;
+        vertical-align: middle;
+        line-height: 38px;
+        font-size: 12px;
+        .left {
+            input {
+                vertical-align: middle;
+                margin-top: -1px;
+                width: 14px;
+                height: 14px;
+            }
+
+            span {
+                margin-left: 10px;
+            }
+
+            margin-left: 10px;
+            font-weight: 700;
+        }
+
+        .right {
+            margin-right: 30px;
+            color: #5e5e5e;
+
+            i {
+                display: inline-block;
+                vertical-align: middle;
+                margin-top: -3px;
+                margin-right: 5px;
+                width: 14px;
+                height: 14px;
+                background: url("../../../img/shopCar/sprite.png") -641px 0;
+            }
+        }
+
+    }
+
+    .shop-product {
+        position: relative;
+        width: 988px;
+        height: 123px;
+        border: 1px solid #ddd;
+        .check {
+            width: 40px;
+            padding: 20px 0;
+        }
+
+        .img {
+            height: 82px;
+            width: 91px;
+            padding: 20px 0;
+
+            a {
+                width: 80px;
+                height: 80px;
+                border: 1px solid #e6e6e6;
+                display: block;
+
+                img {
+                    border: none;
+                    vertical-align: middle;
+                    width: 80px;
+                    height: 80px;
+                }
+            }
+        }
+
+        .msg {
+            width: 777px;
+            height: 120px;
+
+            .msg-1 {
+                width: 208px;
+                height: 92px;
+                padding: 20px 0 5px;
+
+                .name {
+                    height: 33px;
+                    overflow: hidden;
+                    font-size: 12px;
+                }
+
+                .icon {
+                    width: 16px;
+                    height: 16px;
+                    margin-right: 5px;
+                    background: url("../../../img/shopCar/sprite.png") -549px -32px;
+                    display: inline-block;
+                }
+
+                .add {
+                    margin: 7px 0px 2px;
+                    color: #666;
+                    font-size: 12px;
+
+                    .i1 {
+                        display: inline-block;
+                        margin-top: -4px;
+                        line-height: 29px;
+                        width: 16px;
+                        height: 16px;
+                        vertical-align: middle;
+                        background: url("../../../img/shopCar/sprite.png") -594px -16px;
+                    }
+
+                    .i2 {
+                        position: relative;
+                        margin: 0;
+                        line-height: 29px;
+                        width: 9px;
+                        height: 6px;
+                        display: inline-block;
+                        background: url("../../../img/shopCar/sprite.png") -515px -50px;
+                    }
+                }
+            }
+
+            .msg-2 {
+                width: 160px;
+                padding: 20px 0 10px 20px;
+                height: 85px;
+                overflow: hidden;
+                color: #a7a7a7;
+                font-size: 12px;
+
+                .item1 {
+                    line-height: 20px;
+                }
+            }
+
+            .msg-3 {
+                width: 155px;
+                padding: 23px 0;
+
+                .money {
+                    color: #333;
+                    font-size: 12px;
+                }
+            }
+
+            .msg-4 {
+                width: 80px;
+                padding: 20px 0;
+                position: relative;
+                .input{
+                    height: 20px;
+                    margin: 0;
+                    padding: 0;
+                    overflow: hidden;
+                    border: 1px solid #ccc;
+                    border-right: none;
+                    border-left: none;
+                    width: 50px;
+                    display: block;
+                    text-align: center;
+                    background: #fff;
+                    outline: none;
+                    input{
+                        border: none;
+                        width: 100%;
+                        height: 20px;
+                        margin: 0;
+                        padding: 0;
+                        overflow: hidden;
+                        text-align: center;
+                    }
+                }
+                
+                .reduce,
+                .add {
+                    border: 1px solid #ccc;
+                    text-decoration: none;
+                    width: 20px;
+                    text-align: center;
+                    display: block;
+                    width: 15px;
+                    position: absolute;
+                    top: 20px;
+                    height: 20px;
+                    font-weight: bold;
+                }
+
+                .reduce {
+                    left: -17px;
+                    color: #ddd;
+                }
+
+                .add {
+                    right: 14px;
+                    color: #666;
+                    line-height: 20px;
+                }
+            }
+            .msg-5{
+                padding: 22px 0 20px 20px;
+                width: 115px;
+                font-weight: 700;
+                color: #333;
+                font-size: 14px;
+            }
+        }
+        .operate{
+            width: 80px;
+            padding: 20px 0;
+            font-size: 12px;
+            color: #333;
+            .delete{
+                line-height: 23px;
+            }
+            .remote{
+                a{
+                    font-size: 12px;
+                    color: #333;
+                    line-height: 23px;
+                    &:hover{
+                        color: #e3101e;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.account{
+    background: #f3f3f3;
+    width: 100%;
+    height: 60px;
+    margin-top: 20px;
+    clear: both;
+    .account-box{
+        width: 990px;
+        margin: auto;
+        .left,.right{
+            line-height: 60px;
+            font-size: 12px;
+            color: #333;
+        }
+        .left{
+            input{
+                vertical-align: middle;
+                margin-top: -2px;
+            }
+            .del{
+                margin-left: 15px;
+            }
+        }
+
+        .right{
+            .mount,.sum{
+                margin-right: 20px;
+                color: #333
+            }
+            .mount{
+                span{
+                    color: #e3101e;
+                    font-size: 14px;
+                    font-weight: 900;
+                    margin:0 5px;
+                }
+            }
+            .sum{
+                span{
+                    color: #e3101e;
+                    font-size: 18px;
+                    font-weight: 900;
+                }
+            }
+            .jiesuan{
+                width: 136px;
+                text-align: center;
+                a{
+                    background: #e3101e;
+                    display: block;
+                    height: 60px;
+                    line-height: 60px;
+                    text-align: center;
+                    color: #fff;
+                    font-size: 16px;
+                    span{
+                        font-size: 16px;
+                        font-weight: 700;
+                    }
+                }
+            }
+        }
+    }
+}

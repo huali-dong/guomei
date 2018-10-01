@@ -1,0 +1,220 @@
+.register {
+    width: 990px;
+    margin: auto;
+
+    .top {
+        width: 990px;
+        height: 120px;
+        margin: 18px 40px 0 0;
+
+        a {
+            display: inline-block;
+            background: url("../../../img/register/registerlogo\ \(1\).png") no-repeat;
+            width: 300px;
+            height: 62px;
+            margin-top: 16px;
+        }
+    }
+
+    .body {
+        border: 1px solid #E6E6E6;
+        padding-bottom: 21px;
+        margin-top: 68px;
+        position: relative;
+        margin-bottom: -15px;
+        background: url("../../../img/register/bg.png") no-repeat 580px -60px;
+
+        .body-top {
+            position: relative;
+
+            p {
+                position: absolute;
+                top: -25px;
+                right: 20px;
+                font-size: 12px;
+
+                a {
+                    color: #006699;
+                    margin-left: 5px;
+                }
+            }
+
+            ul {
+                position: absolute;
+                top: -42px;
+                left: 149px;
+
+                .cur {
+                    background: #fff;
+                    color: #cc0000;
+                    border-top: 2px solid #cc0000;
+                }
+
+                li {
+                    float: left;
+                    width: 150px;
+                    height: 40px;
+                    text-align: center;
+                    font: bold 14px/41px "Microsoft YaHei";
+                    margin-left: 2px;
+                    color: #5e5e5e;
+                    background: #F3F3F3;
+                    border: 1px solid #e6e6e6;
+                    border-bottom: 0 none;
+                    cursor: pointer;
+                }
+            }
+        }
+
+        .form-list {
+            padding-top: 40px;
+            .btn{
+                .button{
+                    background-color: #ff5757;
+                    border: 0 none;
+                    color: #fff;
+                    cursor: pointer;
+                    display: block;
+                    font-size: 16px;
+                    height: 40px;
+                    text-align: center;
+                    width: 298px;
+                    margin-left: 100px;
+                }
+            }
+            
+            .name{
+               a{
+                position: absolute;
+                top: 0px;
+                left: 453px;
+                display: none;
+               }
+            }
+            .setpw{
+                a{
+                    position: absolute;
+                    top: 0px;
+                    left: 453px;
+                    display: none;
+
+                }
+            }
+            .confirmpw{
+                a{
+                    position: absolute;
+                    top: 0px;
+                    left: 453px;
+                    display: none;
+                }
+            }
+            .huadong{
+                padding: 0 0 26px 151px;
+                height: 40px;
+                position: relative;
+                .span1{
+                    display: inline;
+                    width: 151px;
+                    height: 38px;
+                    line-height: 38px;
+                    font-size: 14px;
+                    text-align: right;
+                    color: #888888;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                }
+            }
+            .message{
+                padding: 0 0 26px 151px;
+                height: 40px;
+                position: relative;
+                span{
+                    display: inline;
+                    width: 151px;
+                    height: 38px;
+                    line-height: 38px;
+                    font-size: 14px;
+                    text-align: right;
+                    color: #888888;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                }
+                div{
+                    display: inline-block;
+                    height: 38px;
+                    line-height: 36px;
+                    margin-left: 5px;
+                    cursor: pointer;
+                    border: 1px solid #e6e6e6;
+                    position: relative;
+                    left: 0;
+                    a{
+                        padding: 11px 10px 14px 10px;
+                        color: #5e5e5e;
+                        font-size: 12px;
+                    }
+                }
+                input{
+                    width: 123px;
+                    height: 36px;
+                    padding: 0 4px;
+                    border: 1px solid #ccc;
+                    font: normal 14px/36px Arial,"Simsun";
+                    color: #a5a5a5;
+                    vertical-align: middle;
+                    position: relative;
+                }
+            }
+            .name,
+            .setpw,
+            .confirmpw,
+            .phone,
+            .tuijian,
+            {
+                padding: 0 0 26px 151px;
+                height: 40px;
+                position: relative;
+                a{
+                    
+                    line-height: 36px;
+                    // width: 288px;
+                    height: 36px;
+                    border: 1px solid #ccc;
+                    font-size: 12px;
+                    color: #a5a5a5;
+                    padding: 0 10px 0 20px;
+                    background-color: #fff;
+                    z-index: 999;
+                    
+                }
+                input {
+                    width: 288px;
+                    height: 36px;
+                    padding: 0 4px;
+                    border: 1px solid #ccc;
+                    outline: none;
+                    font: normal 14px/36px Arial, "Simsun";
+                    color: #a5a5a5;
+                    vertical-align: middle;
+                    position: relative;
+                }
+                span{
+                    display: inline;
+                    width: 151px;
+                    height: 38px;
+                    line-height: 38px;
+                    font-size: 14px;
+                    text-align: right;
+                    color: #888888;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                }
+               
+            }
+        }
+    }
+
+}

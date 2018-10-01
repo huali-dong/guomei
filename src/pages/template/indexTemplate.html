@@ -1,0 +1,231 @@
+<!-- 美日必抢模板 -->
+ <script type="text/html" id="gome-everyday-list">
+    <div  id="gome-everyday-list">
+        <a href="pages/goodlist/goodlist.html">
+            <img src = <%= list.iurl %> />
+            <div class="gome-every-list-price">
+                <span>￥</span>
+                <i class="price"><%= list.gprice %></i>
+            </div>
+            <p class="pname"><%= list.pn %></p>
+        </a>
+    </div>
+</script>
+
+<!-- 金融模板 -->
+<script type="text/html" id="gome-finance-bottom">
+    <ul>
+            <li>
+                <a href="pages/goodlist/goodlist.html">
+                    <img src=<%=list[1] %>>
+                </a>
+            </li>
+            <li>
+                <a href="pages/goodlist/goodlist.html">
+                    <img src=<%=list[2] %>>
+                </a>
+            </li>
+            <li>
+                <a href="pages/goodlist/goodlist.html">
+                    <img src=<%=list[3] %>>
+                </a>
+            </li>
+            <li>
+                <a href="pages/goodlist/goodlist.html">
+                    <img src=<%=list[4] %>>
+                </a>
+            </li>
+            <li>
+                <a href="pages/goodlist/goodlist.html">
+                    <img src=<%=list[5] %>>
+                </a>
+            </li>
+        </ul>
+
+</script>
+
+
+
+<!-- 楼层模板 -->
+
+<script type="text/html" id="gome-floors">
+    <% for(var i=0;i< list.length; i++) {%>
+    <div class="gome-phone-box-top">
+            <div class="left">
+                <span><%= list[i].fl %></span>
+                <h2><%= list[i].flname %></h2>
+            </div>
+            <div class="right">
+                <ul>
+                    <li>
+                        <a>时尚新平</a>
+                    </li>
+                    <li>
+                        <a>架构还价</a>
+                    </li>
+                    <li>
+                        <a>畅想低价</a>
+                    </li>
+                    <li>
+                        <a>二手优品</a>
+                    </li>
+                    <li>
+                        <a>精选热卖</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="gome-phone-box-bottom">
+            <div class="bgc">
+                <a href="pages/goodlist/goodlist.html">
+                    <img src=<%= list[i].bg %>>
+                </a>
+                <ul class="bgc-ul1">
+                    <li>
+                        <a href="pages/goodlist/goodlist.html">手机</a> 
+                        <a href="pages/goodlist/goodlist.html">充值 </a> 
+                        <a href="pages/goodlist/goodlist.html">淘实惠</a> 
+                        <a href="pages/goodlist/goodlist.html">领券</a> 
+                    </li>
+                </ul>
+                <ul class="bgc-ul2">
+                    <li>
+                        <a href="pages/goodlist/goodlist.html">荣耀手机</a>
+                    </li>
+                    <li>
+                        <a href="pages/goodlist/goodlist.html">荣耀手机</a>
+                    </li>
+                    <li>
+                        <a href="pages/goodlist/goodlist.html">荣耀手机</a>
+                    </li>
+                    <li>
+                        <a href="pages/goodlist/goodlist.html">荣耀手机</a>
+                    </li>
+                    <li>
+                        <a href="pages/goodlist/goodlist.html">荣耀手机</a>
+                    </li>
+
+                </ul>
+                <ul class="bgc-ul3">
+                        <li>
+                                <a href="pages/goodlist/goodlist.html">荣耀</a>
+                            </li>
+                            <li>
+                                <a href="pages/goodlist/goodlist.html">荣耀</a>
+                            </li>
+                            <li>
+                                <a href="pages/goodlist/goodlist.html">荣耀</a>
+                            </li>
+                            <li>
+                                <a href="pages/goodlist/goodlist.html">荣耀手</a>
+                            </li>
+                            <li>
+                                <a href="pages/goodlist/goodlist.html">荣耀手</a>
+                            </li>
+
+                </ul>
+                <ul class="bgc-ul4">
+                        <li>
+                                <a href="pages/goodlist/goodlist.html">荣耀手机</a>
+                            </li>
+                            <li>
+                                <a href="pages/goodlist/goodlist.html">荣耀手机</a>
+                            </li>
+                            <li>
+                                <a href="pages/goodlist/goodlist.html">荣耀手机</a>
+                            </li>
+                            <li>
+                                <a href="pages/goodlist/goodlist.html">荣耀手机</a>
+                            </li>
+                            <li>
+                                <a href="pages/goodlist/goodlist.html">荣耀手机</a>
+                            </li>
+
+                </ul>
+            </div>
+
+            <div class="wrap">
+                <a href="pages/goodlist/goodlist.html">
+                        <div class="carousel2" >
+                                <ul class="phone-ul">
+                                    <li><img src=<%= list[i].lb1 %>></li>
+                                    <li><img src=<%= list[i].lb2 %>></li>
+                                    <li><img src=<%= list[i].lb3 %>></li>
+                                </ul>
+                                <ul class="carousel-index"></ul>
+                                <div class="carousel-prev"><img src=<%= list[i].index1 %>></div>
+                                <div class="carousel-next"><img src=<%= list[i].index2 %>></div>
+                            </div>
+                </a>
+                <ul class="wrap-ul1">
+                    <li>
+                        <a href="pages/goodlist/goodlist.html">
+                            <img src=<%= list[i].ph1 %> />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="pages/goodlist/goodlist.html">
+                            <img src=<%= list[i].ph2 %> />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="pages/goodlist/goodlist.html">
+                            <img src=<%= list[i].ph3 %> />
+                        </a>
+                    </li>
+                    <li>
+                            <a href="pages/goodlist/goodlist.html">
+                                <img src=<%= list[i].ph4 %>>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="pages/goodlist/goodlist.html">
+                                <img src=<%= list[i].ph5 %> />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="pages/goodlist/goodlist.html">
+                                <img src=<%= list[i].ph6 %> />
+                            </a>
+                        </li>
+                </ul>
+            </div>
+
+            <div class="picture">
+                <ul>
+                    <li>
+                        <a href="pages/goodlist/goodlist.html">
+                            <img src=<%= list[i].pc1 %> />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="pages/goodlist/goodlist.html">
+                            <img src=<%= list[i].pc2 %> />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="pages/goodlist/goodlist.html">
+                            <img src=<%= list[i].pc3 %> />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="pages/goodlist/goodlist.html">
+                            <img src=<%= list[i].pc4 %> />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="pages/goodlist/goodlist.html">
+                            <img src=<%= list[i].pc5 %> />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="pages/goodlist/goodlist.html">
+                            <img src=<%= list[i].pc6 %> />
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    <%}%>
+</script>

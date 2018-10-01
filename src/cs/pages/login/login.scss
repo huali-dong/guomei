@@ -1,0 +1,284 @@
+.login-head {
+    width: 990px;
+    position: relative;
+    height: 120px;
+    vertical-align: middle;
+    margin: auto;
+
+    .logo {
+        margin: 18px 40px 0 0;
+        float: left;
+        width: 300px;
+        height: 75px;
+
+        a {
+            display: inline-block;
+            background: url("../../../img/login/loginlogo.png") no-repeat;
+            width: 300px;
+            height: 62px;
+            margin-top: 13px;
+            color: #5e5e5e;
+            text-decoration: none;
+            cursor: pointer;
+        }
+    }
+}
+
+.safeTipDiv {
+    background-color: #fff4e3;
+    border-top: 1px solid #fee6bc;
+
+    .safeTip {
+        width: 828px;
+        height: 29px;
+        padding-left: 10px;
+        margin: 0 auto;
+        background-color: #fff4e3;
+        color: #ff7f23;
+        font: 400 12px/29px "Microsoft Yahei";
+
+        em {
+            display: block;
+            float: left;
+            width: 16px;
+            height: 16px;
+            margin: 8px 5px 0 0;
+            background: url("../../../img/login/login-bg-common.png") -28px 0;
+        }
+    }
+}
+
+.login-bg {
+    width: 100%;
+    height: 480px;
+    background: #ff1350;
+    margin-bottom: -15px;
+    .login-bg-box {
+        width: 1200px;
+        height: 480px;
+        margin: auto;
+        position: relative;
+        background: url("../../../img/login/bg.gif") top center;
+
+        .login-wrap {
+            width: 350px;
+            float: right;
+            margin-top: 24px;
+            margin-right: 105px;
+            position: relative;
+            background: #fff;
+            overflow: visible;
+
+            .login-wrap-head {
+                position: relative;
+                height: 54px;
+
+                .left,
+                .right {
+                    border-bottom: 1px solid #f4f4f4;
+                    font: 500 18px "Microsoft Yahei";
+                    text-align: center;
+                    line-height: 54px;
+                    color: #5e5e5e;
+                    height: 54px;
+                    
+                }
+
+                .left {
+                    position: absolute;
+                    left: 0;
+                    width: 174px;
+                }
+
+                .left::after {
+                    content: "";
+                    width: 1px;
+                    height: 27px;
+                    position: absolute;
+                    top: 14px;
+                    right: 0px;
+                    background-color: #cccccc;
+                }
+
+                .right {
+                    position: absolute;
+                    right: 0;
+                    width: 175px;
+                    color: red;
+                }
+            }
+
+            .login-wrap-body {
+                height: 241px;
+                padding: 25px 11px 0 19px;
+
+                .bd {
+                    width: 300px;
+                    position: relative;
+                    padding: 5px 10px 0;
+
+                    .choose {
+                        padding: 10px 0 12px;
+
+                        .right {
+                            width: 120px;
+                            float: right;
+                            font-size: 12px;
+                            text-align: left;
+
+                            a {
+                                text-decoration: none;
+                                float: right;
+                            }
+
+                            .forget {
+                                color: #2875cc;
+                                position: relative;
+
+                            }
+
+                            .forget::before {
+                                content: "";
+                                width: 2px;
+                                height: 12px;
+                                position: absolute;
+                                top: 3px;
+                                left: -6px;
+                                background-color: #cccccc;
+                            }
+
+                            .sign {
+                                color: #5e5e5e;
+                                margin-right: 10px;
+                            }
+
+                        }
+
+                        .left {
+                            float: left;
+                            color: #A5A5A5;
+                            font-size: 12px;
+                            text-align: left;
+
+                            input {
+                                float: left;
+                                margin-right: 4px;
+                                margin-top: 3px;
+                            }
+
+                            label {
+                                color: #5e5e5e;
+                            }
+
+
+                        }
+                    }
+
+                    .login {
+                        input {
+                            display: block;
+                            width: 290px;
+                            height: 42px;
+                            background: #ff5757;
+                            font: 500 18px/41px "Microsoft Yahei";
+                            color: #fff;
+                            text-align: center;
+                            border: 0 none;
+                            outline: 0;
+                            word-spacing: 3px;
+                            cursor: pointer;
+                        }
+                    }
+
+                    p {
+                        padding: 30px 0 15px;
+
+                        a {
+                            color: #2875cc;
+                            font-size: 12px;
+                        }
+                    }
+
+                    .name,
+                    .password {
+                        position: relative;
+                        height: 52px;
+                        a{
+                            position: absolute;
+                            top: 0px;
+                            left: 300px;
+                            border: 1px solid #ccc;
+                            width: 155px;
+                            height: 25px;
+                            padding: 8px 10px 7px;
+                            background-color: #fff;
+                            color: red;
+                            display: none;
+                        }
+                        input {
+                            position: relative;
+                            padding: 8px 10px 7px;
+                            width: 268px;
+                            height: 25px;
+                            border: 1px solid #A5A5A5;
+                            color: #333;
+                            font-size: 14px;
+                            outline: none;
+                            line-height: 21px;
+                        }
+                    }
+                }
+
+
+
+            }
+
+            .login-wrap-foot {
+                clear: both;
+                background-color: #fcfcfc;
+                padding: 9px 20px;
+                color: #a5a5a5;
+                position: relative;
+                border: 1px solid #f0f0f0;
+                font-size: 12px;
+
+                .more {
+                    background: url("../../../img/login/login-bg-common.png") no-repeat;
+                    position: absolute;
+                    width: 19px;
+                    height: 19px;
+                    padding: 0;
+                    margin: 0;
+                    top: 8px;
+                    right: 20px;
+                }
+
+                .kahao {
+                    a {
+                        margin-right: 10px;
+                    }
+
+                    .a1,
+                    .a2,
+                    .a3,
+                    .a4 {
+                        position: relative;
+                    }
+
+                    .a1::after,
+                    .a2::after,
+                    .a3::after,
+                    .a4::after {
+                        content: "";
+                        width: 2px;
+                        height: 11px;
+                        position: absolute;
+                        top: 3px;
+                        right: -4px;
+                        background-color: #cccccc;
+                    }
+                }
+            }
+        }
+    }
+}

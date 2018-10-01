@@ -1,0 +1,231 @@
+
+<!-- 商品头部左边 -->
+<script type="text/html" id="product-right">
+    <% for(var i=0; i< 3; i++) {%>
+            <li>
+                <a>
+                    <img src=<%= list[i].iurl%> />
+                </a>
+                <p>
+                    ￥<span><%= list[i].price%></span>
+                </p>
+            </li>
+    <%}%>
+</script>
+
+<!-- 商品左边整体 -->
+<script type="text/html" id="product-left">
+    <div class="detail-product-left">
+
+            <div class="magnifier" id="magnifier1">
+                <div class="magnifier-container">
+                    <div class="images-cover"></div>
+                    <!--当前图片显示容器-->
+                    <div class="move-view"></div>
+                    <!--跟随鼠标移动的盒子-->
+                </div>
+                <div class="magnifier-assembly">
+                    <div class="magnifier-btn">
+                        <span class="magnifier-btn-left">&lt;</span>
+                        <span class="magnifier-btn-right">&gt;</span>
+                    </div>
+                    <!--按钮组-->
+                    <div class="magnifier-line">
+                        <ul class="clearfix animation03">
+                            <li>
+                                <div class="small-img">
+                                    <img src="../../img/detail/picx1.jpg" />
+                                </div>
+                            </li>
+                            <li>
+                                <div class="small-img">
+                                    <img src="../../img/detail/picx2.jpg" />
+                                </div>
+                            </li>
+                            <li>
+                                <div class="small-img">
+                                    <img src="../../img/detail/picx3.jpg" />
+                                </div>
+                            </li>
+                            <li>
+                                <div class="small-img">
+                                    <img src="../../img/detail/picx4.jpg" />
+                                </div>
+                            </li>
+                            <li>
+                                <div class="small-img">
+                                    <img src="../../img/detail/picx5.jpg" />
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--缩略图-->
+                </div>
+                <div class="magnifier-view"></div>
+                <!--经过放大的图片显示容器-->
+            </div>
+            <div class="footbar">
+                <span>商品编号</span>
+                <a class="a1">
+                    <i></i>
+                    <em>分享</em>
+                </a>
+                <a class="a2">
+                    <i></i>
+                    <em>提心愿</em>
+                </a>
+                <a class="a3">
+                    <i></i>
+                    <em>收藏</em>
+                </a>
+            </div>
+        </div>
+        <div class="detail-product-center">
+            <div class="top">
+                <h1 id="pnnames"><%=list.pn %></h1>
+                <div class="box">
+                    <span>对比</span>
+                </div>
+            </div>
+            <div class="price">
+                <span class="span1">国&nbsp;&nbsp;美&nbsp;&nbsp;价</span>
+                <div>
+                    <span class="price-left">
+                        <em>￥</em>
+                        <i><%=list.price%></i>
+                    </span>
+                    <a class="a1">降价通知</a>
+                </div>
+
+                <div class="price-right">
+                    <div class="line">|</div>
+                    <div class="plun">
+                        <p class="p1">
+                            <span>好评度</span>
+                            <em>100%</em>
+                        </p>
+                        <p class="p2">
+                            <a>
+                                <em>19</em>人评价
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="server">
+                <div class="tese">
+                    <label>特&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;色</label>
+                    <span class="guanjia">
+                        <em></em>
+                        <i></i>
+                        <a>管家服务</a>
+                    </span>
+                </div>
+
+                <div class="send">
+                    <label>送&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;至</label>
+                    <div class="address">
+                        <div id="distpicker3">
+                            <select></select>
+                            <select></select>
+                            <select></select>
+                        </div>
+
+                    </div>
+                    <span class="span1">有货</span>
+                    <span class="post">
+                        支持
+                        <a>免运费</a>
+                    </span>
+                </div>
+
+                <div class="servers">
+                    <label>服&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;务</label>
+                    <span>
+                        由
+                        <a>金华数码专营店</a>
+                        发货并负责售后服务。
+                    </span>
+                </div>
+
+                <div class="shop">
+                    <div class="count" id="count">
+                        <input id="text" type="text" value="1" />
+                        <a class="add" id="add">+</a>
+                        <a class="dec" id="dec">-</a>
+                    </div>
+                    <a class="car" href="../shopCart/shop.html" id="car" pid=<%=list.pid%>>加入购物车</a>
+                    <a class="xiadan">
+                        <i></i>
+                        <em>手机下单</em>
+                    </a>
+                </div>
+
+                <div class="foot">
+                    <span>温馨提示</span>
+                    <span class="span2">1.正品保障；支持7天无理由退货</span>
+                </div>
+            </div>
+        </div>
+ 
+</script>
+
+<!-- 相似商品一栏 -->
+<script type="text/html" id="detail-show">
+    <% for(var i=0; i< 6; i++) {%>
+            <li>
+                <a class="img" href="#" id="button">
+                    <img src=<%=show[i].iurl%> />
+                </a>
+                <a class="title" href="#" id="button">
+                    <h2><%=show[i].pn %></h2>
+                </a>
+                <p class="money">¥<span><%=show[i].price %></span></p>
+            </li>
+    <%}%>
+</script>
+
+
+<script type="text/html" id="pushlistTmp">
+    <% for(var i = 0; i< list.length; i++) {%>
+    <li>
+        <a>
+            <img src=<%=list[i].iurl %> />
+                <p>￥
+                    <span><%= list[i].price %> </span>
+                </p>
+                <div><%=list[i].pn%></div>
+            </a>
+        </li>
+    <%}%>
+</script>
+
+
+
+<!-- 评论 -->
+<script type="text/html" id="commentList">
+    <% for(var i=0;i< list.length; i++) {%>
+    <li>
+            <div class="comment-ul-left">
+                <span>
+                    <b></b>
+                </span>
+                <p>评论7天后收到货</p>
+                <p><a><%= list[i].post_time%></a></p>
+            </div>
+            <div class="comment-ul-center">
+                    使用心得：<em><%= list[i].appraiseElSum %></em>
+            </div>
+            <div class="comment-ul-right">
+                <div>
+                    <img src=<%= list[i].imagePath %>>
+                    <span><%=list[i].loginname %></span>
+                </div>
+                <p>
+                    <span>4G会员</span>
+                </p>
+            </div>
+    </li>
+    <%}%>
+</script>

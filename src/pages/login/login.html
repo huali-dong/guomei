@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>国美登录</title>
+    <link rel="stylesheet" href="../../cs/pages/login/login.css">
+    <link rel="stylesheet" href="../../cs/common/common.css">
+    <script src="../../js/lib/require.js" data-main="login.js"></script>
+</head>
+
+<body>
+    <div class="login-head">
+        <div class="logo">
+            <a></a>
+        </div>
+        
+    </div>
+    <div class="safeTipDiv">
+            <p class="safeTip"><em></em>
+                依据《网络安全法》，为保障您的账户安全和正常使用，请尽快完成手机号验证！新版
+                <a>《国美隐私政策》</a>已上线，将更有利于保护您的个人隐私。
+            </p>
+        </div>
+
+    <div class="login-bg">
+        <div class="login-bg-box" >
+            <div class="login-wrap">
+                <div class="login-wrap-head">
+                    <div class="left">
+                        <a>扫码登录</a>
+                    </div>
+                    <div class="right">账号登录</div>
+                </div>
+                <div class="login-wrap-body">
+                    <form id="submit" class="bd" action="../../index.html" method="get">
+                        <div class="name">
+                            <input id="name" type="text" placeholder="手机号码/用户名/邮箱/门店会员卡" value="" name="name">
+                            <a id="zh">你输入的账号不存在</a>
+                        </div>
+                        <div class="password">
+                            <input id="pwd" type="password" placeholder="密码" value="" name="pwd">
+                            <a id="pp">你输入的密码有误</a>
+                        </div>
+                        <div class="choose">
+                            <div class="left">
+                                <input type="checkbox">
+                                <label>自动登录</label>
+                            </div>
+                            <div class="right">
+                                <a class="forget">忘记密码</a>
+                                <a href="../register/register.html" class="sign">免费注册</a>
+                            </div>
+                        </div>
+                        <div class="login">
+                            <input id="btn" type="button" value="登录">
+                        </div>
+                        <p>
+                            <a>手机号码快速登录（支持门店预留手机）</a>
+                        </p>
+                    </form>
+                    
+                    
+                </div>
+                <div class="login-wrap-foot">
+                        <div class="kahao">
+                                <a class="a1">门店会员卡登录</a>
+                                <a class="a2">QQ</a>
+                                <a class="a3">微信</a>
+                                <a class="a4">微博</a>
+                                <a>支付宝</a>
+                        </div>
+                         <a class="more"></a>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="gomefoot">
+
+    </div>
+
+</body>
+
+</html>
