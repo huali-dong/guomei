@@ -1,0 +1,104 @@
+.goodlist-body {
+  width: 100%;
+  background: url("../../../img/goodlist/nav-bg.jpg") no-repeat top;
+}
+
+.goodlist-body-box {
+  width: 990px;
+  margin: auto;
+  height: 851px;
+}
+
+.goodlist-body-box .a1 img {
+  margin-top: 0px;
+}
+
+.goodlist-body-box img {
+  margin-top: -4px;
+}
+
+.goodlist-nav {
+  width: 100%;
+  background-color: #e8f9ff;
+}
+
+.goodlist-nav .goodlist-nav-box {
+  width: 990px;
+  margin: auto;
+  height: 110px;
+}
+
+.goodlist-nav .goods {
+  width: 990px;
+  margin: auto;
+  height: 930px;
+}
+
+.goodlist-nav .goods ul li {
+  width: 190px;
+  height: 300px;
+  float: left;
+  background-color: #fff;
+  margin-right: 8px;
+  margin-top: 8px;
+}
+
+.goodlist-nav .goods ul li .img {
+  width: 190px;
+  height: 200px;
+}
+
+.goodlist-nav .goods ul li .img img {
+  width: 190px;
+  height: 200px;
+}
+
+.goodlist-nav .goods ul li .text {
+  padding: 0 8px 8px;
+}
+
+.goodlist-nav .goods ul li .text .ms {
+  height: 35px;
+  width: 174px;
+  overflow: hidden;
+  margin-bottom: 2px;
+  font-size: 12px;
+}
+
+.goodlist-nav .goods ul li .text .ms a {
+  font: 400 12px "Microsoft YaHei";
+  color: #5e5e5e;
+}
+
+.goodlist-nav .goods ul li .text .money {
+  font: 400 14px Arial;
+  color: #e3101e;
+  margin-bottom: 8px;
+}
+
+.goodlist-nav .goods ul li .text .money span {
+  font: 700 21px Arial;
+  color: #e3101e;
+}
+
+.goodlist-nav .goods ul li .text .buy a {
+  font: 400 14px "Microsoft YaHei";
+}
+
+.goodlist-nav .goods ul li .text .buy .a1 {
+  color: #e3101e;
+  border: 1px solid #e3101e;
+  padding: 5px 8px;
+}
+
+.goodlist-nav .goods ul li .text .buy .a1:hover {
+  font-weight: 700;
+}
+
+.goodlist-nav .goods ul li .text .buy .a2 {
+  color: #fff;
+  background-color: #e3101e;
+  padding: 6px 14px;
+  margin-left: -4px;
+  font-weight: 700;
+}

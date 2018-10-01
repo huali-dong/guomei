@@ -1,0 +1,64 @@
+<script type="text/html" id="shopCar">
+<% for(var i =0;i< list.length; i++){ %>
+    <div class="shop-product">
+        <div class="check fl">
+            <input class="check3" id="check3" type="checkbox">
+        </div>
+        <div class="img fl">
+            <a>
+                <img src= <%=list[i].iurl %>>
+            </a>
+        </div>
+        <div class="msg fl">
+            <div class="msg-1 fl">
+                <div class="name">
+                    <a id="pnname"><%= list[i].pn %></a>
+                </div>
+                <div class="icon">
+                    <i></i>
+                </div>
+                <div class="add">
+                    <i class="i1"></i>
+                    选购增值服务
+                    <i class="i2"></i>
+                </div>
+            </div>
+            <div class="msg-2 fl">
+                <div class="item1">
+                    <span>颜色:</span>
+                    <span>亮黑</span>
+                </div>
+                <div class="item1">
+                    <span>容量:</span>
+                    <span>6GB+64GB</span>
+                </div>
+            </div>
+            <div class="msg-3 fl">
+                <div class="money">
+                    ￥<span id="dmoney"><%= list[i].price%></span>
+                </div>
+            </div>
+            <div class="msg-4 fl">
+                <div id="addRed" pid=<%=list[i].pid%>>
+                        <a class="reduce" id="red">-</a>
+                        <a class="add" id="add">+</a>
+                        <div class="input">
+                            <input class=" classinp" id="inp" type="text" value=<%=count[i] %>>
+                        </div>
+                </div>
+                
+            </div>
+            <div class="msg-5 fl">
+                ￥<span class="xiaoji" id="xiaoji"><%= price[i]%></span>
+            </div>
+        </div>
+        <div class="operate fl">
+            <div class="delete">
+                <a id="dele" piddele=<%=list[i].pid%>>删除</a>
+            </div>
+            <div class="remote"><a href="../goodlist/goodlist.html" >继续添加</a></div>
+        </div>
+    </div>
+
+<%}%>
+</script>

@@ -1,6 +1,6 @@
-
+﻿
 #忽略node_modules，复制到dest
 node_modules/
 
 #忽略dest,上传到git
-dest/
+

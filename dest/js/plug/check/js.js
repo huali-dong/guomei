@@ -1,0 +1,1 @@
+var slider=new SliderUnlock("#slider",{successLabelTip:"\u9A8C\u8BC1\u6210\u529F"},function(){$("#label").html("&radic;"),$("#label").css("color","green"),$("#labelTip").removeClass("txtRoll"),$("#CaptchaID2").val("1")});$(function(){slider.init(),$("#button2").click(function(){slider.init(),slider.reset()})});

@@ -1,0 +1,654 @@
+@charset "UTF-8";
+html, body, div, span, h1, h2, h3, h4, h5, h6, a, table, tr, th, td, p, i, ul, li, dt, dl, dd {
+  margin: 0;
+  padding: 0;
+}
+
+em, i {
+  font-style: normal;
+}
+
+table, i, input, ul, li, em {
+  list-style: none;
+}
+
+.after {
+  content: "";
+  width: 1px;
+  height: 27px;
+  position: absolute;
+  top: 14px;
+  right: 0px;
+  background-color: #cccccc;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+}
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+.nav {
+  height: 80px;
+  background: #15205e;
+}
+
+.nav-box {
+  width: 1200px;
+  margin: auto;
+  position: relative;
+}
+
+.nav-box-annniu {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 6px;
+  width: 12px;
+  height: 12px;
+  background: url("../img/index/ui.png") -60px -466px;
+}
+
+.gome-top {
+  width: 100%;
+  height: 30px;
+  background-color: #f8f8f8;
+  position: relative;
+  border-bottom: 1px solid #f3f3f3;
+  color: #5e5e5e;
+}
+
+.gome-top-box {
+  width: 1200px;
+  margin: auto;
+}
+
+.gome-top-box-left ul li {
+  float: left;
+  font: 400 12px/30px "Microsoft YaHei";
+  margin-right: 10px;
+}
+
+.gome-top-pic {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  position: relative;
+}
+
+.gome-top-box-left a:hover {
+  color: red;
+}
+
+.gome-top-em {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 0 1px;
+  background: url("../../img/index/ui.png") 0 -658px;
+  width: 14px;
+  height: 14px;
+}
+
+.gome-top-i {
+  background: url("../../img/index/ui.png") -62px -433px;
+  position: absolute;
+  top: 12px;
+  right: -4px;
+  width: 7px;
+  height: 4px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.gome-top-box-right {
+  float: right;
+}
+
+.gome-top-box-right li {
+  float: left;
+  font: 400 12px/30px "Microsoft YaHei";
+  margin-left: 20px;
+}
+
+.gome-top-box-right li a:hover {
+  color: red;
+}
+
+.div-top {
+  padding: 0 20px 0 10px;
+  position: relative;
+}
+
+.gome-top-box-right-gome i,
+.gome-top-box-right-purchase i,
+.gome-top-box-right-service i,
+.gome-top-box-right-nav i,
+.gome-rop-box-right-phonegome i {
+  background: url("../../img/index/ui.png") -62px -433px;
+  position: absolute;
+  top: 12px;
+  right: 5px;
+  width: 7px;
+  height: 4px;
+  display: inline-block;
+}
+
+.gome-head {
+  width: 100%;
+  height: 120px;
+}
+
+.gome-head .gome-head-box {
+  width: 1200px;
+  margin: auto;
+  position: relative;
+  vertical-align: middle;
+  height: 120px;
+}
+
+.gome-head .gome-head-box .logo {
+  float: left;
+  margin: 32px 10px 0 0;
+}
+
+.gome-head .gome-head-box .logo a {
+  display: inline-block;
+  width: 125px;
+  height: 56px;
+  background: url("../../img/index/logo.png") 0 0 no-repeat;
+}
+
+.gome-head .gome-head-box .logo-gif {
+  float: left;
+  margin: 35px 0px 0px 10px;
+}
+
+.gome-head .gome-head-box .logo-gif img {
+  width: 100px;
+  height: 50px;
+}
+
+.gome-head .gome-head-box .gome-topSearch {
+  float: left;
+  position: absolute;
+  width: 500px;
+  top: 32px;
+  left: 385px;
+}
+
+.gome-head .gome-head-box .gome-topSearch .topSearchHover {
+  border: 1px solid #dd00a7;
+  position: relative;
+  font-size: 14px;
+  height: 29px;
+  background-color: #fff;
+  position: relative;
+  border-bottom: none;
+}
+
+.gome-head .gome-head-box .gome-topSearch .topSearchHover #droplist {
+  display: block;
+  position: absolute;
+  top: 29px;
+  left: 0;
+  width: 406px;
+  line-height: 18px;
+  background-color: #fff;
+  border: 1px solid #cccccc;
+  border-top: none;
+  border-bottom: 1px solid #dd00a7;
+  z-index: 999;
+}
+
+.gome-head .gome-head-box .gome-topSearch .topSearchHover #droplist li {
+  float: left;
+  width: 386px;
+  cursor: pointer;
+  height: 30px;
+  line-height: 30px;
+  color: #000000;
+  padding-left: 20px;
+}
+
+.gome-head .gome-head-box .gome-topSearch .topSearchHover #droplist li:hover {
+  background-color: #f8f8f8;
+}
+
+.gome-head .gome-head-box .gome-topSearch .topSearchHover input {
+  border: none;
+  width: 310px;
+  padding: 5px 5px 5px 72px;
+  line-height: 20px;
+  float: left;
+  font-size: 14px;
+  font-family: arial;
+  color: #5E5E5E;
+  outline: none;
+  background-color: transparent;
+}
+
+.gome-head .gome-head-box .gome-topSearch .topSearchHover button {
+  width: 90px;
+  height: 30px;
+  border: none;
+  cursor: pointer;
+  float: right;
+  display: inline;
+  background: #dd00a7;
+  font: 16px/30px 'microsoft yahei';
+  color: #fff;
+  letter-spacing: 2px;
+  text-indent: 0;
+  outline: none;
+}
+
+.gome-head .gome-head-box .gome-topSearch .topSearchHover a i {
+  display: inline-block;
+  margin-right: 3px;
+  padding: 5px 0;
+  cursor: pointer;
+  width: 15px;
+  height: 20px;
+  background: url("../../img/index/下载.png") no-repeat center;
+  background-size: 13px 19px;
+}
+
+.gome-head .gome-head-box .gome-topSearch .topSearchHover .search-type-drop {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: 'Microsoft YaHei';
+  font-size: 14px;
+  color: #A5A5A5;
+  float: left;
+  width: 62px;
+  height: 30px;
+  line-height: 30px;
+}
+
+.gome-head .gome-head-box .gome-topSearch .topSearchHover .search-type-drop .search-type {
+  position: relative;
+  width: 42px;
+  padding: 0 10px;
+  height: 30px;
+  border-right: 1px solid #dd00a7;
+}
+
+.gome-head .gome-head-box .gome-topSearch .topSearchHover .search-type-drop .search-type i {
+  position: absolute;
+  display: inline-block;
+  width: 11px;
+  height: 7px;
+  right: 9px;
+  top: 11px;
+  background: url("../../img/index/ui.png") -145px -1469px;
+}
+
+.gome-head .gome-head-box .gome-topSearch .hotword {
+  margin: 6px 0 0;
+  color: #A5A5A5;
+  line-height: 14px;
+  height: 14px;
+  font-size: 12px;
+}
+
+.gome-head .gome-head-box .gome-topSearch .hotword .a1 {
+  color: red;
+}
+
+.gome-head .gome-head-box .gome-topSearch .hotword a {
+  margin-right: 5px;
+}
+
+.gome-head .gome-head-box .gome-topSearch .hotword a:hover {
+  color: red;
+}
+
+.gome-head .gome-head-box .shop-cart {
+  float: right;
+  position: absolute;
+  right: 0;
+  width: 240px;
+  top: 32px;
+}
+
+.gome-head .gome-head-box .shop-cart .shop-cart-box {
+  width: 75px;
+  height: 46px;
+  padding: 5px 20px 0 45px;
+}
+
+.gome-head .gome-head-box .shop-cart .shop-cart-box b {
+  width: 0;
+  height: 0;
+  position: absolute;
+  top: 15px;
+  left: 135px;
+  border: 4px solid transparent;
+  border-color: #5E5E5E transparent transparent;
+  border-bottom: 0;
+}
+
+.gome-head .gome-head-box .shop-cart .shop-cart-box b:hover {
+  cursor: pointer;
+}
+
+.gome-head .gome-head-box .shop-cart .shop-cart-box span {
+  font-size: 12px;
+  color: #5e5e5e;
+  line-height: 34px;
+  height: 34px;
+  padding: 10px 20px 0 10px;
+}
+
+.gome-head .gome-head-box .shop-cart .shop-cart-box span:hover {
+  color: red;
+}
+
+.gome-head .gome-head-box .shop-cart .shop-cart-box em {
+  width: 27px;
+  height: 20px;
+  position: absolute;
+  top: 11px;
+  left: 10px;
+  background: url("../../img/index/ui.png") -100px -701px;
+}
+
+.gome-head .gome-head-box .shop-cart .shop-cart-box em i {
+  position: absolute;
+  height: 18px;
+  line-height: 18px;
+  padding: 0 3px;
+  background-color: #dd00a7;
+  top: -18px;
+  width: 14px;
+  text-align: center;
+  left: 15px;
+  color: #FFF;
+  font-weight: 700;
+}
+
+.gome-help {
+  width: 100%;
+  height: 222px;
+  margin-top: 15px;
+  clear: both;
+}
+
+.gome-help .gome-help-box {
+  width: 1200px;
+  margin: auto;
+}
+
+.gome-help .gome-help-box .gome-help-top ul {
+  background: #f5f5f5;
+  padding: 15px 0;
+  overflow: hidden;
+}
+
+.gome-help .gome-help-box .gome-help-top ul li {
+  float: left;
+  width: 33%;
+  text-align: center;
+}
+
+.gome-help .gome-help-box .gome-help-top ul li .a1 {
+  margin-left: 20px;
+}
+
+.gome-help .gome-help-box .gome-help-top ul li a {
+  line-height: 40px;
+  font: 400 18px/37px Arial, "Microsoft YaHei";
+  color: #404040;
+}
+
+.gome-help .gome-help-box .gome-help-top ul li a:hover {
+  color: #f5004b;
+}
+
+.gome-help .gome-help-box .gome-help-top ul li a .i1 {
+  background: url("../../img/index/ui.png") 0 -1469px;
+}
+
+.gome-help .gome-help-box .gome-help-top ul li a .i2 {
+  background: url("../../img/index/ui.png") -40px -1469px;
+}
+
+.gome-help .gome-help-box .gome-help-top ul li a .i3 {
+  background: url("../../img/index/ui.png") -80px -1469px;
+}
+
+.gome-help .gome-help-box .gome-help-top ul li a i {
+  display: inline-block;
+  width: 40px;
+  height: 42px;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.gome-help .gome-help-box .gome-help-bottom {
+  height: 150px;
+}
+
+.gome-help .gome-help-box .gome-help-bottom dl {
+  float: left;
+  width: 9%;
+  padding: 15px 0 0 125px;
+  display: inline;
+}
+
+.gome-help .gome-help-box .gome-help-bottom dl dt {
+  font: 16px/25px Arial, "Microsoft YaHei";
+  color: #5e5e5e;
+}
+
+.gome-help .gome-help-box .gome-help-bottom dl dd {
+  display: block;
+}
+
+.gome-help .gome-help-box .gome-help-bottom dl dd ul li {
+  float: none;
+  width: 100%;
+  text-align: left;
+}
+
+.gome-help .gome-help-box .gome-help-bottom dl dd ul li a {
+  font: 12px/22px Arial, "Microsoft YaHei";
+  color: #a5a5a5;
+  padding: 0;
+}
+
+.gome-help .gome-help-box .gome-help-bottom dl dd ul li a:hover {
+  color: #f5004b;
+}
+
+.gome-foot {
+  width: 100%;
+  height: 271px;
+  background: #f7f7f7;
+  margin-top: 15px;
+  border-top: 1px solid #dd00a7;
+  clear: both;
+}
+
+.gome-foot .gome-foot-box {
+  width: 1200px;
+  height: 271px;
+  margin: auto;
+  position: relative;
+  padding: 20px 0 0;
+}
+
+.gome-foot .gome-foot-box .gome-foot-credit {
+  border-top: 1px solid #e6e6e6;
+  margin-top: 5px;
+  padding: 10px 0 25px;
+}
+
+.gome-foot .gome-foot-box .gome-foot-credit i {
+  display: block;
+  width: 35px;
+  height: 35px;
+  float: left;
+}
+
+.gome-foot .gome-foot-box .gome-foot-credit .i1 {
+  background: url("../../img/index/ui.png") 0 -180px;
+}
+
+.gome-foot .gome-foot-box .gome-foot-credit .i2 {
+  background: url("../../img/index/ui.png") -35px -180px;
+}
+
+.gome-foot .gome-foot-box .gome-foot-credit .i3 {
+  background: url("../../img/index/ui.png") -70px -180px;
+}
+
+.gome-foot .gome-foot-box .gome-foot-credit .i4 {
+  background: url("../../img/index/ui.png") -105px -180px;
+}
+
+.gome-foot .gome-foot-box .gome-foot-credit .i5 {
+  background: url("../../img/index/ui.png") -140px -180px;
+}
+
+.gome-foot .gome-foot-box .gome-foot-credit .i6 {
+  background: url("../../img/index/ui.png") -175px -180px;
+}
+
+.gome-foot .gome-foot-box .gome-foot-credit b {
+  font: 12px/18px Arial,"Microsoft YaHei";
+  display: block;
+  float: left;
+  width: 60px;
+  color: #999;
+  padding: 0 30px 0 5px;
+  font-weight: 400px;
+}
+
+.gome-foot .gome-foot-box p {
+  color: #999;
+  font: 12px/22px Arial;
+}
+
+.gome-foot .gome-foot-box ul {
+  width: 1200px;
+  height: 22px;
+}
+
+.gome-foot .gome-foot-box ul li {
+  float: left;
+  font: 12px/22px Arial,"Microsoft YaHei";
+  padding: 0 13px 0 0;
+  color: #666666;
+  white-space: nowrap;
+}
+
+.gome-foot .gome-foot-box ul li a {
+  color: #666;
+}
+
+.gome-foot .gome-foot-box .gome-foot-box-server, .gome-foot .gome-foot-box .gome-foot-box-used {
+  display: inline-block;
+  padding: 0 50px 40px 0;
+}
+
+.gome-foot .gome-foot-box .gome-foot-box-server i, .gome-foot .gome-foot-box .gome-foot-box-used i {
+  display: block;
+  width: 45px;
+  height: 45px;
+  float: left;
+}
+
+.gome-foot .gome-foot-box .gome-foot-box-server .i1, .gome-foot .gome-foot-box .gome-foot-box-used .i1 {
+  background: url("../../img/index/ui.png") 0 -135px;
+}
+
+.gome-foot .gome-foot-box .gome-foot-box-server .i2, .gome-foot .gome-foot-box .gome-foot-box-used .i2 {
+  background: url("../../img/index/ui.png") -45px -135px;
+}
+
+.gome-foot .gome-foot-box .gome-foot-box-server p, .gome-foot .gome-foot-box .gome-foot-box-used p {
+  margin-left: 10px;
+  font: 12px/20px Arial, "Microsoft YaHei";
+  float: left;
+  width: 210px;
+  overflow: hidden;
+  height: 45px;
+}
+
+.gome-foot .gome-foot-box .gome-foot-box-server p a, .gome-foot .gome-foot-box .gome-foot-box-used p a {
+  color: #999;
+}
+
+.gome-foot .gome-foot-box .gome-foot-box-server p strong, .gome-foot .gome-foot-box .gome-foot-box-used p strong {
+  color: #333;
+  display: block;
+  font: 400 16px/25px Arial, "Microsoft YaHei";
+}
+
+.gome-foot .gome-foot-box .gome-foot-box-img {
+  position: absolute;
+  right: -10px;
+  top: 15px;
+  font-size: 0;
+}
+
+.gome-foot .gome-foot-box .gome-foot-box-img .weixi, .gome-foot .gome-foot-box .gome-foot-box-img .phone {
+  width: 50px;
+  margin: 0 10px;
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  position: relative;
+}
+
+.gome-foot .gome-foot-box .gome-foot-box-img .weixi i, .gome-foot .gome-foot-box .gome-foot-box-img .phone i {
+  width: 40px;
+  height: 25px;
+  display: inline-block;
+}
+
+.gome-foot .gome-foot-box .gome-foot-box-img .weixi .i1, .gome-foot .gome-foot-box .gome-foot-box-img .phone .i1 {
+  background: url("../../img/index/ui.png") -105px -135px;
+}
+
+.gome-foot .gome-foot-box .gome-foot-box-img .weixi .i2, .gome-foot .gome-foot-box .gome-foot-box-img .phone .i2 {
+  background: url("../../img/index/ui.png") -185px -135px;
+}
+
+.gome-foot .gome-foot-box .gome-foot-box-img .weixi p, .gome-foot .gome-foot-box .gome-foot-box-img .phone p {
+  font: 12px/22px Arial;
+  color: #999;
+}
+
+.gome-foot .gome-foot-box .gome-foot-box-img .erweima {
+  width: 110px;
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  position: relative;
+}
+
+.gome-foot .gome-foot-box .gome-foot-box-img .erweima i {
+  width: 90px;
+  height: 90px;
+  display: inline-block;
+}
+
+.gome-foot .gome-foot-box .gome-foot-box-img .erweima p {
+  font: 12px/22px Arial;
+  color: #999;
+}

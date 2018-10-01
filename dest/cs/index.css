@@ -1,0 +1,765 @@
+.gome-head-nav {
+  width: 100%;
+  height: 39px;
+  border-bottom: 1px solid #dd00a7;
+  background-color: #f8f8f8;
+}
+
+.gome-head-nav .gome-head-nav-box {
+  width: 1200px;
+  height: 39px;
+  line-height: 38px;
+  margin: auto;
+}
+
+.gome-head-nav .gome-head-nav-box .gome-nav-box-left {
+  float: left;
+  width: 200px;
+  background-color: #f1f1f1;
+  position: relative;
+}
+
+.gome-head-nav .gome-head-nav-box .gome-nav-box-left i {
+  float: right;
+  background: url("../img/index/ui.png") 0 -1344px;
+  position: absolute;
+  top: 13px;
+  right: 11px;
+  display: inline-block;
+  width: 18px;
+  height: 12px;
+}
+
+.gome-head-nav .gome-head-nav-box .gome-nav-box-middle {
+  float: left;
+}
+
+.gome-head-nav .gome-head-nav-box .gome-nav-box-middle li {
+  float: left;
+  padding: 0 13px;
+}
+
+.gome-head-nav .gome-head-nav-box .gome-nav-box-middle li a {
+  color: #000;
+  font-size: 14px;
+  line-height: 40px;
+  font-family: 'Microsoft YaHei';
+}
+
+.gome-head-nav .gome-head-nav-box .gome-nav-box-middle li a:hover {
+  color: red;
+}
+
+.gome-head-nav .gome-head-nav-box .gome-nav-box-right {
+  float: right;
+  position: relative;
+}
+
+.gome-head-nav .gome-head-nav-box .gome-nav-box-right img {
+  margin-right: 10px;
+}
+
+.gome-head-nav .gome-head-nav-box .gome-nav-box-right a {
+  position: absolute;
+  top: 12px;
+  right: 0px;
+  width: 13px;
+  height: 20px;
+}
+
+.gome-head-nav .gome-head-nav-box .gome-nav-box-right a .i1 {
+  background: url("../img/index/ui.png") -20px -1348px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 9px;
+  height: 5px;
+  display: inline-block;
+}
+
+.gome-head-nav .gome-head-nav-box .gome-nav-box-right a .i2 {
+  background: url("../img/index/ui.png") -20px -1353px;
+  position: absolute;
+  top: 10px;
+  right: 0px;
+  width: 9px;
+  height: 5px;
+  display: inline-block;
+}
+
+.gome-main {
+  width: 100%;
+  height: 450px;
+  background-color: #f8f8f8;
+}
+
+.gome-main .gome-main-box {
+  width: 1200px;
+  margin: auto;
+  height: 450px;
+  position: relative;
+}
+
+.gome-main .gome-main-box .gome-main-left {
+  width: 200px;
+  height: 450px;
+  float: left;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #333;
+  opacity: 0.7;
+  z-index: 999;
+}
+
+.gome-main .gome-main-box .gome-main-left .gome-main-left-ul li {
+  height: 29px;
+  line-height: 29px;
+}
+
+.gome-main .gome-main-box .gome-main-left .gome-main-left-ul li:hover {
+  background-color: #fff;
+}
+
+.gome-main .gome-main-box .gome-main-left .gome-main-left-ul li:hover a {
+  color: #000;
+}
+
+.gome-main .gome-main-box .gome-main-left .gome-main-left-ul li h3 {
+  position: relative;
+  padding-left: 15px;
+  height: 30px;
+  line-height: 30px;
+  width: 170px;
+  white-space: nowrap;
+  overflow: hidden;
+  margin-left: 1px;
+}
+
+.gome-main .gome-main-box .gome-main-left .gome-main-left-ul li h3 a {
+  color: #fff;
+  font-size: 14px;
+  font-family: 'Microsoft YaHei', arial;
+  font-weight: 200;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.gome-main .gome-main-box .gome-main-left .gome-main-left-ul li h3 a:hover {
+  color: red;
+}
+
+.gome-main .gome-main-box .gome-main-middle {
+  width: 750px;
+  height: 450px;
+  float: left;
+  margin-left: 200px;
+}
+
+.gome-main .gome-main-box .gome-main-right {
+  width: 250px;
+  height: 450px;
+  float: right;
+}
+
+.gome-everyday {
+  width: 100%;
+  height: 252px;
+  margin-top: 20px;
+  background-color: #fff;
+}
+
+.gome-everyday .gome-everyday-box {
+  width: 1200px;
+  height: 252px;
+  margin: auto;
+}
+
+.gome-everyday .gome-everyday-box .goem-everyday-box-left {
+  width: 950px;
+  height: 252px;
+  margin-left: 5px;
+}
+
+.gome-everyday .gome-everyday-box .goem-everyday-box-left .gome-every-box-left-top {
+  height: 44px;
+  border: 1px solid #cccccc;
+  border-top: 1px solid #dd00a7;
+}
+
+.gome-everyday .gome-everyday-box .goem-everyday-box-left .gome-every-box-left-top h3 {
+  color: #f5004b;
+  font-size: 18px;
+  line-height: 40px;
+  font-weight: 500;
+}
+
+.gome-everyday .gome-everyday-box .goem-everyday-box-left .gome-every-box-left-top .gome-everyday-box-left-top-right {
+  margin-right: 30px;
+}
+
+.gome-everyday .gome-everyday-box .goem-everyday-box-left .gome-every-box-left-top .gome-everyday-box-left-top-right i {
+  font-size: 12px;
+  color: #f5004b;
+  margin-right: 5px;
+}
+
+.gome-everyday .gome-everyday-box .goem-everyday-box-left .gome-every-box-left-top .gome-everyday-box-left-top-right em {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  margin-top: 3px;
+  border-radius: 20%;
+  text-align: center;
+  line-height: 35px;
+  font-size: 18px;
+  font-weight: 500;
+  background-color: #f5004b;
+  color: #fff;
+}
+
+.gome-everyday .gome-everyday-box .goem-everyday-box-left .gome-every-box-left-top .gome-everyday-box-left-top-right span {
+  color: #f5004b;
+  font-size: 18px;
+  width: 5px;
+  height: 5px;
+}
+
+.gome-everyday .gome-everyday-box .goem-everyday-box-left #gome-every-box-left-bottom {
+  width: 948px;
+  height: 209px;
+  border: 1px solid #cccccc;
+  border-top: none;
+}
+
+.gome-everyday .gome-everyday-box .goem-everyday-box-left #gome-every-box-left-bottom #gome-everyday-list {
+  float: left;
+  width: 237px;
+  height: 209px;
+}
+
+.gome-everyday .gome-everyday-box .goem-everyday-box-left #gome-every-box-left-bottom #gome-everyday-list a {
+  display: inline-block;
+  width: 236px;
+  height: 179px;
+  padding-top: 20px;
+  border-right: 1px dashed #cccccc;
+}
+
+.gome-everyday .gome-everyday-box .goem-everyday-box-left #gome-every-box-left-bottom #gome-everyday-list a img {
+  width: 120px;
+  height: 120px;
+  margin-left: 58px;
+}
+
+.gome-everyday .gome-everyday-box .goem-everyday-box-left #gome-every-box-left-bottom #gome-everyday-list a span {
+  color: #ff0027;
+  font-size: 20px;
+  margin: 6px 0 0 20px;
+}
+
+.gome-everyday .gome-everyday-box .goem-everyday-box-left #gome-every-box-left-bottom #gome-everyday-list a .price {
+  color: #ff0027;
+  font-size: 20px;
+}
+
+.gome-everyday .gome-everyday-box .goem-everyday-box-left #gome-every-box-left-bottom #gome-everyday-list a .del {
+  color: #999;
+  font-size: 12px;
+  text-decoration: line-through;
+  margin-left: 1px;
+}
+
+.gome-everyday .gome-everyday-box .goem-everyday-box-left #gome-every-box-left-bottom #gome-everyday-list a .pname {
+  margin-left: 20px;
+  color: #5e5e5e;
+  font-size: 12px;
+  height: 18px;
+  line-height: 18px;
+  width: 196px;
+  overflow: hidden;
+}
+
+.gome-shopFeature {
+  width: 100%;
+  height: 486px;
+}
+
+.gome-shopFeature .gome-shopFeature-box {
+  width: 1200px;
+  margin: auto;
+  height: 486px;
+}
+
+.gome-shopFeature .gome-shopFeature-box .gome-shopFeature-right {
+  width: 340px;
+  height: 486px;
+  margin-left: 10px;
+  margin-top: -5px;
+  float: right;
+}
+
+.gome-shopFeature .gome-shopFeature-box .gome-shopFeature-right .gome-shopFeature-right-bottom {
+  width: 340px;
+  height: 423px;
+  border: 1px solid #cccccc;
+}
+
+.gome-shopFeature .gome-shopFeature-box .gome-shopFeature-right .gome-shopFeature-right-bottom .item {
+  width: 219px;
+  height: 423px;
+  float: left;
+  border-right: 1px solid #cccccc;
+}
+
+.gome-shopFeature .gome-shopFeature-box .gome-shopFeature-right .gome-shopFeature-right-bottom .item .img1 {
+  width: 219px;
+  height: 209px;
+  display: inline-block;
+  border-bottom: 1px dashed #cccccc;
+}
+
+.gome-shopFeature .gome-shopFeature-box .gome-shopFeature-right .gome-shopFeature-right-bottom .brand {
+  float: right;
+}
+
+.gome-shopFeature .gome-shopFeature-box .gome-shopFeature-right .gome-shopFeature-right-bottom .brand a {
+  display: block;
+  width: 118px;
+  height: 45px;
+  padding-top: 15px;
+  border-bottom: 1px dashed #cccccc;
+}
+
+.gome-shopFeature .gome-shopFeature-box .gome-shopFeature-right .gome-shopFeature-right-top {
+  width: 100%;
+  height: 60px;
+}
+
+.gome-shopFeature .gome-shopFeature-box .gome-shopFeature-right .gome-shopFeature-right-top h3 {
+  width: 70px;
+  height: 30px;
+  margin-top: 30px;
+  float: left;
+  background: url("../img/index/ui1.png") no-repeat -169px -164px;
+}
+
+.gome-shopFeature .gome-shopFeature-box .gome-shopFeature-right .gome-shopFeature-right-top span {
+  color: #cccccc;
+  font-size: 20px;
+  padding: 30px 0 0 9px;
+  font-weight: 400;
+  float: left;
+}
+
+.gome-shopFeature .gome-shopFeature-box .gome-shopFeature-left {
+  width: 420px;
+  margin-left: 5px;
+  height: 486px;
+  float: left;
+}
+
+.gome-shopFeature .gome-shopFeature-box .gome-shopFeature-left .gome-shopFeature-left-bottom {
+  width: 418px;
+  height: 423px;
+  border: 1px solid #cccccc;
+  background-color: #fff;
+}
+
+.gome-shopFeature .gome-shopFeature-box .gome-shopFeature-left .gome-shopFeature-left-bottom .img1 {
+  float: left;
+}
+
+.gome-shopFeature .gome-shopFeature-box .gome-shopFeature-left .gome-shopFeature-left-bottom .img2 {
+  float: left;
+  border-bottom: 1px dashed #cccccc;
+}
+
+.gome-shopFeature .gome-shopFeature-box .gome-shopFeature-left .gome-shopFeature-left-top {
+  width: 100%;
+  height: 60px;
+  position: relative;
+}
+
+.gome-shopFeature .gome-shopFeature-box .gome-shopFeature-left .gome-shopFeature-left-top h3 {
+  width: 70px;
+  height: 30px;
+  margin-top: 30px;
+  float: left;
+  background: url("../img/index/ui1.png") no-repeat -169px -100px;
+}
+
+.gome-shopFeature .gome-shopFeature-box .gome-shopFeature-left .gome-shopFeature-left-top span {
+  color: #cccccc;
+  font-size: 20px;
+  padding: 30px 0 0 9px;
+  font-weight: 400;
+  float: left;
+}
+
+.gome-discount {
+  width: 100%;
+  height: 110px;
+  margin-top: 20px;
+}
+
+.gome-discount .gome-discount-box {
+  width: 1200px;
+  height: 110px;
+  margin: auto;
+}
+
+.gome-discount .gome-discount-box li {
+  float: left;
+}
+
+.gome-discount .gome-discount-box li a {
+  display: inline-block;
+  width: 207px;
+  height: 110px;
+  border-right: 1px dashed #cccccc;
+}
+
+.gome-discount .gome-discount-box li img {
+  margin-left: -1px;
+}
+
+.goem-finance {
+  width: 100%;
+  height: 290px;
+}
+
+.goem-finance .gome-finance-box {
+  width: 1200px;
+  margin: auto;
+  height: 290px;
+}
+
+.goem-finance .gome-finance-box li {
+  float: left;
+}
+
+.goem-finance .gome-finance-box .title {
+  height: 60px;
+}
+
+.goem-finance .gome-finance-box .title h3 {
+  font-size: 18px;
+  color: #333;
+  margin-top: 28px;
+  font-weight: 400;
+  float: left;
+}
+
+.goem-finance .gome-finance-box .title span {
+  display: block;
+  float: left;
+  font-size: 20px;
+  color: #ccc;
+  padding: 27px 0 0 9px;
+  font-family: Arial;
+}
+
+.gome-phone {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.gome-phone .gome-phone-box {
+  width: 1200px;
+  margin: auto;
+}
+
+.gome-phone .gome-phone-box .gome-phone-box-top {
+  height: 38px;
+  border-bottom: 1px solid #719ef7;
+  padding-top: 32px;
+  position: relative;
+}
+
+.gome-phone .gome-phone-box .gome-phone-box-top .right {
+  height: 38px;
+}
+
+.gome-phone .gome-phone-box .gome-phone-box-top .right ul {
+  float: right;
+  margin-top: 8px;
+  max-width: 790px;
+  height: 30px;
+  overflow: hidden;
+  position: relative;
+}
+
+.gome-phone .gome-phone-box .gome-phone-box-top .right ul li {
+  float: left;
+}
+
+.gome-phone .gome-phone-box .gome-phone-box-top .right ul li a {
+  color: #5e5e5e;
+  font-size: 14px;
+  padding: 0 15px;
+  height: 30px;
+  line-height: 30px;
+  display: inline-block;
+}
+
+.gome-phone .gome-phone-box .gome-phone-box-top .right ul li a:hover {
+  background: #719ef7;
+  color: #fff;
+}
+
+.gome-phone .gome-phone-box .gome-phone-box-top .left {
+  width: 210px;
+  height: 38px;
+  overflow: hidden;
+  float: left;
+  line-height: 38px;
+  font-size: 20px;
+}
+
+.gome-phone .gome-phone-box .gome-phone-box-top .left span {
+  float: left;
+  padding-right: 6px;
+}
+
+.gome-phone .gome-phone-box .gome-phone-box-top .left h2 {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.gome-phone .gome-phone-box .gome-phone-box-bottom {
+  height: 470px;
+}
+
+.gome-phone .gome-phone-box .gome-phone-box-bottom .bgc {
+  height: 470px;
+  width: 210px;
+  float: left;
+  position: relative;
+  background: #50bfec;
+}
+
+.gome-phone .gome-phone-box .gome-phone-box-bottom .bgc img {
+  margin-left: -10px;
+  display: block;
+  width: 220px;
+  height: 278px;
+}
+
+.gome-phone .gome-phone-box .gome-phone-box-bottom .bgc .bgc-ul1 {
+  padding-left: 10px;
+  min-height: 32px;
+  line-height: 32px;
+  background: #6294f6;
+}
+
+.gome-phone .gome-phone-box .gome-phone-box-bottom .bgc .bgc-ul1 li {
+  display: inline-block;
+  font-size: 14px;
+  color: #f0f0f0;
+  float: left;
+}
+
+.gome-phone .gome-phone-box .gome-phone-box-bottom .bgc .bgc-ul1 a {
+  display: inline-block;
+  font-size: 14px;
+  color: #f0f0f0;
+  float: left;
+  margin-right: 15px;
+}
+
+.gome-phone .gome-phone-box .gome-phone-box-bottom .bgc .bgc-ul1 a:hover {
+  text-decoration: underline;
+}
+
+.gome-phone .gome-phone-box .gome-phone-box-bottom .bgc .bgc-ul4 {
+  width: 73px;
+  margin: 8px 15px 15px 10px;
+  height: 137px;
+  float: left;
+  overflow: hidden;
+}
+
+.gome-phone .gome-phone-box .gome-phone-box-bottom .bgc .bgc-ul4 li {
+  width: 73px;
+  height: 28px;
+}
+
+.gome-phone .gome-phone-box .gome-phone-box-bottom .bgc .bgc-ul4 a {
+  display: inline-block;
+  color: #f0f0f0;
+  height: 20px;
+  font-size: 12px;
+}
+
+.gome-phone .gome-phone-box .gome-phone-box-bottom .bgc .bgc-ul4 a:hover {
+  text-decoration: underline;
+}
+
+.gome-phone .gome-phone-box .gome-phone-box-bottom .bgc .bgc-ul3 {
+  height: 137px;
+  width: 37px;
+  float: left;
+  overflow: hidden;
+  margin: 8px 0 15px 10px;
+}
+
+.gome-phone .gome-phone-box .gome-phone-box-bottom .bgc .bgc-ul3 li {
+  height: 28px;
+}
+
+.gome-phone .gome-phone-box .gome-phone-box-bottom .bgc .bgc-ul3 a {
+  display: inline-block;
+  color: #f0f0f0;
+  height: 20px;
+  font-size: 12px;
+}
+
+.gome-phone .gome-phone-box .gome-phone-box-bottom .bgc .bgc-ul3 a:hover {
+  text-decoration: underline;
+}
+
+.gome-phone .gome-phone-box .gome-phone-box-bottom .bgc .bgc-ul2 {
+  height: 137px;
+  width: 50px;
+  float: left;
+  overflow: hidden;
+  margin: 8px 0 15px 15px;
+}
+
+.gome-phone .gome-phone-box .gome-phone-box-bottom .bgc .bgc-ul2 li {
+  height: 28px;
+}
+
+.gome-phone .gome-phone-box .gome-phone-box-bottom .bgc .bgc-ul2 a {
+  display: inline-block;
+  color: #f0f0f0;
+  height: 20px;
+  font-size: 12px;
+}
+
+.gome-phone .gome-phone-box .gome-phone-box-bottom .bgc .bgc-ul2 a:hover {
+  text-decoration: underline;
+}
+
+.gome-phone .gome-phone-box .gome-phone-box-bottom .wrap {
+  width: 389px;
+  height: 470px;
+  float: left;
+  position: relative;
+  margin: 0 auto;
+}
+
+.gome-phone .gome-phone-box .gome-phone-box-bottom .wrap .wrap-ul1 {
+  width: 372px;
+  height: 102px;
+  left: 10px;
+  bottom: 10px;
+  position: absolute;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.gome-phone .gome-phone-box .gome-phone-box-bottom .wrap .wrap-ul1 a {
+  width: 122px;
+  height: 40px;
+}
+
+.gome-phone .gome-phone-box .gome-phone-box-bottom .wrap .wrap-ul1 li {
+  width: 122px;
+  height: 50px;
+  float: left;
+  margin: 0 0 1px 1px;
+  background: rgba(255, 255, 255, 0.5);
+  box-shadow: #5e5e5e;
+  cursor: pointer;
+}
+
+.gome-phone .gome-phone-box .gome-phone-box-bottom .wrap .wrap-ul1 li:hover {
+  background-color: #fff;
+}
+
+.gome-phone .gome-phone-box .gome-phone-box-bottom .wrap .wrap-ul1 li img {
+  display: block;
+  width: 100px;
+  height: 30px;
+  margin: 10px 0 0 11px;
+  background: rgba(255, 255, 255, 0.5);
+  box-shadow: #5e5e5e;
+}
+
+.gome-phone .gome-phone-box .gome-phone-box-bottom .wrap a {
+  width: 389px;
+  height: 470px;
+  display: inline-block;
+}
+
+.gome-phone .gome-phone-box .gome-phone-box-bottom .wrap a .carousel2 {
+  width: 100%;
+  height: 100%;
+}
+
+.gome-phone .gome-phone-box .gome-phone-box-bottom .wrap a .carousel2 .phone-ul {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.gome-phone .gome-phone-box .gome-phone-box-bottom .wrap a .carousel2 .phone-ul li {
+  float: left;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.gome-phone .gome-phone-box .gome-phone-box-bottom .wrap a .carousel2 .phone-ul li img {
+  width: 100%;
+  height: 100%;
+}
+
+.gome-phone .gome-phone-box .gome-phone-box-bottom .picture {
+  width: 601px;
+  height: 470px;
+  float: left;
+}
+
+.gome-phone .gome-phone-box .gome-phone-box-bottom .picture ul {
+  width: 601px;
+  height: 470px;
+  padding-left: 4px;
+}
+
+.gome-phone .gome-phone-box .gome-phone-box-bottom .picture ul a {
+  position: relative;
+  width: 199px;
+  height: 234px;
+  display: inline-block;
+}
+
+.gome-phone .gome-phone-box .gome-phone-box-bottom .picture ul a::before {
+  content: "";
+  display: block;
+  width: 1px;
+  height: 234px;
+  background-color: #ccc;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.gome-phone .gome-phone-box .gome-phone-box-bottom .picture ul a::after {
+  content: "";
+  display: block;
+  width: 199px;
+  height: 1px;
+  background-color: #ccc;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.gome-phone .gome-phone-box .gome-phone-box-bottom .picture ul li {
+  float: left;
+  height: 234px;
+}

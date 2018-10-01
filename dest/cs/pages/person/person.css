@@ -1,0 +1,213 @@
+@charset "UTF-8";
+.person-top {
+  width: 100%;
+  background-color: #ff5757;
+  height: 76px;
+}
+
+.person-top .person-top-box {
+  width: 1210px;
+  margin: auto;
+  position: relative;
+}
+
+.person-top .person-top-box .icon {
+  background: url("../../../img/person/log.png") no-repeat;
+  width: 153px;
+  height: 32px;
+  float: left;
+  margin: 24px 57px 0 0;
+}
+
+.person-top .person-top-box ul {
+  height: 76px;
+  position: relative;
+  float: left;
+}
+
+.person-top .person-top-box ul .li2 i {
+  background: url("../../../img/person/headIcon.png") no-repeat 0 0;
+  position: absolute;
+  top: 19px;
+  left: 85px;
+}
+
+.person-top .person-top-box ul .li3 i {
+  background: url("../../../img/person/headIcon.png") no-repeat 0 0;
+  position: absolute;
+  top: 19px;
+  left: 100px;
+}
+
+.person-top .person-top-box ul .li4 i {
+  background: url("../../../img/person/headIcon.png") no-repeat 0 0;
+  position: absolute;
+  top: 19px;
+  left: 55px;
+}
+
+.person-top .person-top-box ul li {
+  float: left;
+  height: 40px;
+  position: relative;
+  padding: 18px 0;
+  line-height: 40px;
+  margin-right: 10px;
+}
+
+.person-top .person-top-box ul li a {
+  display: block;
+  font: 500 16px/40px "微软雅黑";
+  color: #fff;
+  position: relative;
+  height: 40px;
+  padding: 0;
+  text-align: left;
+  padding: 0 13px;
+  border: 1px solid #ff5757;
+}
+
+.person-top .person-top-box ul li a i {
+  width: 9px;
+  height: 8px;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 400;
+}
+
+.person-top .person-top-box .person-top-right {
+  float: right;
+  margin-top: 20px;
+}
+
+.person-top .person-top-box .person-top-right a {
+  position: relative;
+  font: 400 13px/32px "微软雅黑";
+  color: #5e5e5e;
+  background: #ffffff;
+  float: left;
+  display: block;
+  width: 87px;
+  height: 32px;
+  padding: 0 12px 0 14px;
+  margin-left: 4px;
+  border-radius: 5%;
+}
+
+.person-top .person-top-box .person-top-right a:hover {
+  color: #ff5757;
+}
+
+.person-contain {
+  width: 1200px;
+  margin: 20px auto 60px;
+}
+
+.person-contain .person-left {
+  padding-top: 10px;
+  text-align: left;
+  float: left;
+}
+
+.person-contain .person-left .head {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 32px;
+  color: #5e5e5e;
+  padding-top: 5px;
+}
+
+.person-contain .person-left ul li {
+  position: relative;
+  display: block;
+  height: 26px;
+  line-height: 26px;
+  margin-bottom: 5px;
+}
+
+.person-contain .person-left ul li .my {
+  color: #c00;
+}
+
+.person-contain .person-left ul li a {
+  display: block;
+  color: #8888;
+  font-size: 13px;
+}
+
+.person-contain .person-left ul li a:hover {
+  color: #f5323f;
+}
+
+.person-contain .person-right {
+  float: left;
+  width: 1000px;
+  margin-left: 80px;
+}
+
+.person-contain .person-right .right-top {
+  height: 30px;
+  margin-top: 20px;
+  float: left;
+  font-size: 16px;
+  width: 1000px;
+  position: relative;
+}
+
+.person-contain .person-right .right-top::after {
+  content: "";
+  display: block;
+  width: 1000px;
+  height: 1px;
+  background-color: #ccc;
+  position: absolute;
+  bottom: 1px;
+  left: 0px;
+}
+
+.person-contain .person-right .right-center {
+  padding: 20px 20px 0;
+  line-height: 24px;
+  color: #333;
+  font-size: 12px;
+}
+
+.person-contain .person-right .right-center .span1 {
+  clear: both;
+  padding: 30px 0;
+}
+
+.person-contain .person-right .right-center .span2 {
+  clear: both;
+  height: 43px;
+}
+
+.person-contain .person-right .right-center .left {
+  float: left;
+  color: #a6a6a6;
+}
+
+.person-contain .person-right .right-center .right {
+  float: left;
+  margin-right: 5px;
+}
+
+.person-contain .person-right .right-center .right .all {
+  border: 1px solid #c00;
+  color: #c00;
+}
+
+.person-contain .person-right .right-center .right ul li {
+  float: left;
+  margin-bottom: 10px;
+}
+
+.person-contain .person-right .right-center .right ul li a {
+  padding: 2px 5px;
+  color: #5e5e5e;
+  font-size: 12px;
+}
+
+.person-contain .person-right .right-center .right ul li a:hover {
+  color: #c00;
+}

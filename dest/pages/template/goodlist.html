@@ -1,0 +1,36 @@
+<script type="text/html" id="goodslist">
+    <%for(var j=0; j< 3;j++){%>
+        <div class="goodlist-nav-box">
+                <a>
+                    <img src="../../img/goodlist/top1.jpg">
+                </a>
+            </div>
+            <div class="goods">
+                <ul id="lists">
+                        <% for(var i=0;i< 15;i++) {%>
+                            <li>
+                                    <div class="img">
+                                        <a id="imgindex">
+                                            <img src=<%= list[i].iurl%>>
+                                        </a>
+                                    </div>
+                                    <div class="text">
+                                        <p class="ms">
+                                                <a><%= list[i].pn%></a>
+                                        </p>
+                                        <p class="money">
+                                            ￥<span><%=list[i].price%></span>
+                                        </p>
+                                        <div class="buy">
+                                            <a class="a1">加入购物车</a>
+                                            
+                                            <a class="a2" href="../detail/detail.html" id="btns" pid=<%=list[i].pid%> >立即抢购</a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <%}%>
+                </ul>
+            </div>
+    <%}%>
+</script>
+

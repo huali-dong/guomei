@@ -1,0 +1,1 @@
+require(["../../js/config/config"],function(){require(["jquery","template"],function(a,b){a("#common-top").load("../template/common.html",function(){a("#common-top").html(b("gome-top"))})})});
